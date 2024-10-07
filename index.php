@@ -49,9 +49,9 @@
                         <a class="nav-link disabled" aria-disabled="true">Disabled</a>
                     </li>
                 </ul>
-                <button class="btn btn-outline-success rounded-1" type="submit" data-bs-toggle="modal"
+                <button class="p-1 btn btn-outline-success rounded-1" type="submit" data-bs-toggle="modal"
                     data-bs-target="#exampleModal2"><i class="bi bi-box-arrow-in-right"></i> Login</button>
-                <button class="ms-2 btn btn-outline-primary rounded-1" type="submit" data-bs-toggle="modal"
+                <button class="ms-2 px-1 p-1 btn btn-outline-primary rounded-1" type="submit" data-bs-toggle="modal"
                     data-bs-target="#exampleModal"><i class="bi bi-person-fill"></i> Registration</button>
             </div>
         </div>
@@ -107,6 +107,8 @@
             </div>
         </div>
     </nav>
+    <!-- header end -->
+    <!-- main start -->
     <!-- link the bootstrap sctipt file -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
