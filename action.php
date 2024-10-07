@@ -11,5 +11,6 @@ $folder = "images/".$user_pic;
 
 $query = "INSERT INTO `userdata`(uname,uemail,pwd,phone,userPic) VALUES ('$name','$email','$password','$mobile','$user_pic')";
 $submits = mysqli_query($connect,$query);
+move_uploaded_file($temp_name,$folder);
 header("location:index.php");
 ?>
